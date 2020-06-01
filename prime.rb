@@ -11,4 +11,4 @@ def prime(num)
 end
 return true 
 end
-puts prime(87687)
+puts prime(15485863)
