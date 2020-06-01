@@ -1,6 +1,15 @@
 def prime(num)
-  (2..(num - 1)).each do |n|
-    return false if num % n == 0
+  if num < 2 
+    return false 
   end
-  true
+  i = 2 
+  while i<= num / 2 
+  if num % i == 0 
+    return false 
+  end
+  i += 1 
+end
+return true 
+
+  
 end
