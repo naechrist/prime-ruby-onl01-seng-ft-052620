@@ -11,4 +11,4 @@ def prime?(num)
 end
 return true 
 end
-puts prime?(15485863)
+puts prime?(684876)
