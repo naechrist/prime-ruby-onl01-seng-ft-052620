@@ -1,4 +1,4 @@
-def prime(num)
+def prime?(num)
   if num < 2 
     return false 
   end
@@ -11,4 +11,4 @@ def prime(num)
 end
 return true 
 end
-puts prime(15485863)
+puts prime?(15485863)
