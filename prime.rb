@@ -10,6 +10,5 @@ def prime(num)
   i += 1 
 end
 return true 
-
-  
 end
+puts prime(num)
